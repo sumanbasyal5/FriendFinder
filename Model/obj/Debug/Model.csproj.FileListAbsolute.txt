@@ -1,0 +1,9 @@
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Model\bin\Debug\Model.dll.config
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Model\bin\Debug\Model.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Model\bin\Debug\Model.pdb
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Model\bin\Debug\EntityFramework.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Model\bin\Debug\EntityFramework.xml
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Model\obj\Debug\Model.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Model\obj\Debug\Model.pdb

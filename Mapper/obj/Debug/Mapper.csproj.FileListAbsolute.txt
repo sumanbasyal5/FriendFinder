@@ -1,0 +1,14 @@
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\Mapper.dll.config
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\Mapper.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\Mapper.pdb
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\Entity.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\EntityFramework.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\Model.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\Entity.pdb
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\Model.pdb
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\EntityFramework.xml
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\obj\Debug\Mapper.csprojResolveAssemblyReference.cache
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\obj\Debug\Mapper.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Mapper\obj\Debug\Mapper.pdb

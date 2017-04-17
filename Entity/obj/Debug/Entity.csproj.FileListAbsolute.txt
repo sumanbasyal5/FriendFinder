@@ -1,0 +1,10 @@
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\bin\Debug\Entity.dll.config
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\bin\Debug\Entity.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\bin\Debug\Entity.pdb
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\bin\Debug\EntityFramework.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\bin\Debug\EntityFramework.xml
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\obj\Debug\Entity.dll
+C:\Users\basya\documents\visual studio 2013\Projects\FriendFinder\Entity\obj\Debug\Entity.pdb

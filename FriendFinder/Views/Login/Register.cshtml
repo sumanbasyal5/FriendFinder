@@ -1,0 +1,111 @@
+﻿@model Model.Login
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+<link href="~/Css/register.css" rel="stylesheet" />
+<script src="~/Scripts/Custom/register.js"></script>
+@using (Html.BeginForm("Register", "Login", FormMethod.Post, new { @class = "form-register" }))
+{
+    <div>
+       <h3><span class="label label-default">User Registration</span></h3> 
+    </div>
+    <div id="firstDiv">
+        <div class="form-group">
+            <label for="exampleInputFile">First Name</label>
+            @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">Last Name</label>
+            @Html.TextBoxFor(x => x.LastName, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            @Html.TextBoxFor(x => x.Email, new { @class = "form-control has-error" })
+            @*<span class="help-block">Email already Exists</span>*@
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">Re-type Password</label>
+            @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <input type="button" value="Next" class="btn btn-primary" onclick="firstShowNext();"/>
+        </div>
+    </div>
+    
+    <div id="secondDiv">
+        <div class="form-group">
+            <label>Gender</label>
+            @Html.DropDownListFor(m => m.GenderId, Model.listGender.Select(m => new SelectListItem { Text = m.Name, Value = m.Id.ToString() }), new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label>Date of birth</label>
+            @Html.EditorFor(m => m.DateOfBirth, new { @class = "form-control datepicker" })
+        </div>
+        <div class="form-group">
+            <label>Telephone Number</label>
+            @Html.TextBox("telephone", null, new { @class="form-control"})
+        </div>
+        <div class="form-group">
+            <input type="button" value="Previous" class="btn btn-primary" onclick="secondShowPrevious();" />
+            <input type="button" value="Next" class="btn btn-primary" onclick="secondShowNext();" />
+        </div>
+    </div>
+    
+    <div id="thirdDiv">
+        
+           
+            <div class="form-group">
+                <label>Country of origin</label>
+                @Html.DropDownListFor(m => m.PermanentCountryId, Model.listCountry.Select(m => new SelectListItem { Text = m.countryName, Value = m.countryId.ToString() }), new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Permanent City</label>
+                @Html.TextBoxFor(m => m.PermanentCity, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Permanent Address</label>
+                @Html.TextBoxFor(m => m.PermanentAddress, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <input type="button" value="Previous" class="btn btn-primary" onclick="thirdShowPrevious();" />
+                <input type="button" value="Next" class="btn btn-primary" onclick="thirdShowNext();"/>
+            </div>
+    </div>
+    
+    <div id="fourthDiv">
+
+       
+            <div class="form-group">
+                <label>Current Country</label>
+                @Html.DropDownListFor(x => x.CurrentCountryId, Model.listCountry.Select(m => new SelectListItem { Text = m.countryName, Value = m.countryId.ToString() }), new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>State</label>
+                @Html.DropDownListFor(x => x.CurrentStateId, Model.listState.Select(m => new SelectListItem { Text = m.stateName, Value = m.stateId.ToString() }), new { @class = "form-control" })
+
+            </div>
+            <div class="form-group">
+                <label>City</label>
+                @Html.TextBoxFor(m => m.CurrentCity, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Current Address</label>
+                @Html.TextBoxFor(m => m.CurrentAddress, new { @class = "form-control" })
+            </div>
+        <div class="form-group">
+            <button type="button" class="btn btn-primary" onclick="fourthShowPrevious();">Previous</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+}
+
+
+<div class="side-image">
+    <img src="~/Images/circle-of-people.png" id="imageFriends" />
+</div>

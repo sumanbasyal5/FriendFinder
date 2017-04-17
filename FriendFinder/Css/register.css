@@ -1,0 +1,23 @@
+﻿.form-register{
+    max-width:450px;
+    background-color:#f8f8f8 !important;
+    padding:50px;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius:10px;
+}
+
+#secondDiv, #thirdDiv, #fourthDiv{
+    display:none;
+}
+
+.side-image{
+    position:absolute;
+    left:800px;
+    top:150px;
+   
+}
+
+#imageFriends{
+    width:500px;
+    height:500px;
+}
