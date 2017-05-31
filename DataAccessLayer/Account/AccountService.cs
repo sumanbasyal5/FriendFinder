@@ -123,6 +123,61 @@ namespace DataAccessLayer.Account
             }
         }
 
+        public IEnumerable<User> GetAllUser()
+        {
+            try
+            {
+                return dbEntity.Users.ToList();
+            }
+            catch(Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public User GetUserInfo(string email)
+        {
+            try
+            {
+                var entityUser=dbEntity.Users.FirstOrDefault(x => x.email == email);
+                return entityUser;
+            }
+            catch(Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public bool SaveUserPhoto(string email, byte[] array)
+        {
+            try
+            {
+                var user=dbEntity.Users.FirstOrDefault(x => x.email == email);
+                user.image = array;
+                dbEntity.SaveChanges();
+                return true;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool UploadImage(string email, byte[] imageArray)
+        {
+            try
+            {
+                var entityUser=dbEntity.Users.FirstOrDefault(x => x.email == email);
+                entityUser.image = imageArray;
+                dbEntity.SaveChanges();
+                return true;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+        }
+
        
     }
 }

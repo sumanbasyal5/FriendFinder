@@ -38,6 +38,37 @@ namespace Mapper.Account
             
         }
 
+        public static Model.Login ConvertToModel(User user)
+        {
+            Model.Login login = new Model.Login();
+            try
+            {
+                login.Email =               user.email;
+                login.Password =            user.password;
+                login.CurrentAddress =      user.currentAddress;
+                login.CurrentCity =         user.currentCity;
+                login.CurrentCountryId =    user.currentCountryId;
+                login.CurrentStateId =      user.currentStateId;
+                login.DateOfBirth =         user.dateOfBirth;
+                login.FirstName =           user.firstName;
+                login.GenderId =            user.genderId;
+                login.gender = user.genderId == 1 ? "Male" : "Female";
+                login.LastName =            user.lastName;
+                login.PermanentAddress =    user.permanentAddress;
+                login.PermanentCity =       user.permanentCity;
+                login.PermanentCountryId =  user.permanentCountryId;
+                login.CurrentState = user.State.name;
+                login.CurrentCountry = user.Country1.name;
+                login.PermanentCountry = user.Country.name;
+                login.ImageArray = user.image;
+                return login;
+            }
+            catch(Exception ex)
+            {
+                return null;
+            }
+        }
+
         public static IEnumerable<Login> ConvertToModel(IList<User> entityList)
         {
             IList<Login> loginList = new List<Login>();

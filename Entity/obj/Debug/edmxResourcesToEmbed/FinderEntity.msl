@@ -29,6 +29,7 @@
     <EntitySetMapping Name="Users">
       <EntityTypeMapping TypeName="Model.User">
         <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="image" ColumnName="image" />
           <ScalarProperty Name="currentAddress" ColumnName="currentAddress" />
           <ScalarProperty Name="currentCity" ColumnName="currentCity" />
           <ScalarProperty Name="currentStateId" ColumnName="currentStateId" />
@@ -49,6 +50,7 @@
     <EntitySetMapping Name="Messages">
       <EntityTypeMapping TypeName="Model.Message">
         <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="sendReceive" ColumnName="sendReceive" />
           <ScalarProperty Name="sendDateTime" ColumnName="sendDateTime" />
           <ScalarProperty Name="seen" ColumnName="seen" />
           <ScalarProperty Name="message1" ColumnName="message" />

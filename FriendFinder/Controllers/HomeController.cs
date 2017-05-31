@@ -56,5 +56,12 @@ namespace FriendFinder.Controllers
             bool result=_messageManager.SaveMessage(message, Convert.ToInt32(receiverId), _accountManager.GetUserIdViaEmail(email));
             return Json(result, JsonRequestBehavior.AllowGet);
         }
+
+        public ActionResult Profile()
+        {
+            Model.Login login = new Model.Login();
+            login = _accountManager.GetUserInfo(User.Identity.Name);
+            return View(login);
+        }
     }
 }

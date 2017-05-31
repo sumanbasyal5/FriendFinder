@@ -1,0 +1,41 @@
+﻿body{
+    font-family:font-awesome;
+
+}
+#main-div{
+    width:100%;
+    background-color:#f8f8f8 !important;
+    padding:0px;
+    margin:0px;
+    /*box-shadow: 10px 10px 5px #888888;*/
+    border-radius:10px;
+    min-height:500px;
+}
+
+#left-menu{
+    padding:0px;
+    margin:0px;
+    min-height:500px;
+}
+
+.content-div{
+   
+    background-color: #f1f3f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.navbar-default {
+    background-color: #853962;
+    border-color: #853962;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: #dfca39;
+}

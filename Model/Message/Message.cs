@@ -14,6 +14,7 @@ namespace Model
         public string Messages { get; set; }
         public bool Seen { get; set; }
         public System.DateTime SendDateTime { get; set; }
+        public string SendReceive { get; set; }
 
     }
 }

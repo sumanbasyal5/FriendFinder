@@ -81,6 +81,7 @@
     <NavigationProperty Name="State" Relationship="Model.Fk_currentStateId_State" FromRole="User" ToRole="State" />
     <NavigationProperty Name="Messages" Relationship="Model.fk_receiverId_User_Message" FromRole="User" ToRole="Message" />
     <NavigationProperty Name="Messages1" Relationship="Model.fk_senderId_User_Message" FromRole="User" ToRole="Message" />
+    <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
   </EntityType>
   <Association Name="Fk_currentCountryId_Country">
     <End Type="Model.Country" Role="Country" Multiplicity="0..1" />
@@ -142,6 +143,7 @@
     <NavigationProperty Name="User1" Relationship="Model.fk_senderId_User_Message" FromRole="Message" ToRole="User" />
     <Property Name="seen" Type="Boolean" Nullable="false" />
     <Property Name="sendDateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sendReceive" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
   </EntityType>
   <Association Name="fk_receiverId_User_Message">
     <End Type="Model.User" Role="User" Multiplicity="1" />

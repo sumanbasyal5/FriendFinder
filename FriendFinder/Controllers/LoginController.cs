@@ -3,6 +3,7 @@ using BusinessAccessLayer.Account;
 using Model;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -93,6 +94,56 @@ namespace FriendFinder.Controllers
         {
             var list=_accountManager.GetUserAsPerCity(cityName,Convert.ToInt32(currentCountryId),Convert.ToInt32(currentStateId),Convert.ToInt32(permanentCountryId));
             return Json(list, JsonRequestBehavior.AllowGet);
+        }
+
+
+        [HttpPost]
+        public bool Upload()
+        {
+            byte[] fileData=null;
+            using(var binaryReader = new BinaryReader(Request.Files[0].InputStream))
+            {
+                fileData=binaryReader.ReadBytes(Request.Files[0].ContentLength);
+            }
+            return _accountManager.SaveUserPhoto(User.Identity.Name, fileData);
+
+            //Request.Files[0]
+            //for (int i = 0; i < Request.Files.Count; i++)
+            //{
+            //    var file = Request.Files[i];
+
+            //    var fileName = Path.GetFileName(file.FileName);
+
+            //    var path = Path.Combine(Server.MapPath("~/App_Data/"), fileName);
+            //    file.SaveAs(path);
+            //}
+
+        }
+
+        [HttpPost]
+        public ActionResult FileUpload(HttpPostedFileBase file)
+        {
+            if (file != null)
+            {
+                string pic = System.IO.Path.GetFileName(file.FileName);
+                //string path = System.IO.Path.Combine(
+                //                       Server.MapPath("~/images/profile"), pic);
+                //// file is uploaded
+                //file.SaveAs(path);
+
+                // save the image path path to the database or you can send image 
+                // directly to database
+                // in-case if you want to store byte[] ie. for DB
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    file.InputStream.CopyTo(ms);
+                    byte[] array = ms.GetBuffer();
+                    _accountManager.SaveUserPhoto(User.Identity.Name, array);
+                }
+
+            }
+            // after successfully uploading redirect the user
+            return RedirectToAction("Profile", "Home");
         }
 
     }

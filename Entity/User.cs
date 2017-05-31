@@ -34,6 +34,7 @@ namespace Entity
         public Nullable<int> currentStateId { get; set; }
         public string currentCity { get; set; }
         public string currentAddress { get; set; }
+        public byte[] image { get; set; }
     
         public virtual Country Country { get; set; }
         public virtual Country Country1 { get; set; }

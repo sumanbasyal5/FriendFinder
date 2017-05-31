@@ -27,6 +27,11 @@ namespace Model
         public Nullable<int> CurrentStateId { get; set; }
         public string CurrentCity { get; set; }
         public string CurrentAddress { get; set; }
+        public string gender { get; set; }
+        public string CurrentState { get; set; }
+        public string CurrentCountry { get; set; }
+        public string PermanentCountry { get; set; }
+        public byte[] ImageArray { get; set; }
 
         public IEnumerable<Item> listGender { get; set; }
         public IEnumerable<Country> listCountry { get; set; }

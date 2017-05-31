@@ -20,6 +20,7 @@ namespace Entity
         public string message1 { get; set; }
         public bool seen { get; set; }
         public System.DateTime sendDateTime { get; set; }
+        public string sendReceive { get; set; }
     
         public virtual User User { get; set; }
         public virtual User User1 { get; set; }

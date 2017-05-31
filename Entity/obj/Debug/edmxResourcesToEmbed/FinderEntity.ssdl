@@ -24,6 +24,7 @@
     <Property Name="message" Type="nvarchar" MaxLength="200" Nullable="false" />
     <Property Name="seen" Type="bit" Nullable="false" />
     <Property Name="sendDateTime" Type="datetime" Nullable="false" />
+    <Property Name="sendReceive" Type="nvarchar" MaxLength="20" Nullable="false" />
   </EntityType>
   <EntityType Name="State">
     <Key>
@@ -51,6 +52,7 @@
     <Property Name="currentStateId" Type="int" />
     <Property Name="currentCity" Type="nvarchar" MaxLength="100" />
     <Property Name="currentAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="image" Type="varbinary(max)" />
   </EntityType>
   <Association Name="Fk_currentCountryId_Country">
     <End Role="Country" Type="Self.Country" Multiplicity="0..1" />

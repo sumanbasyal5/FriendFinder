@@ -63,6 +63,10 @@
       <Project>{5c7619e4-f02d-4a59-a697-beda7e0c5c55}</Project>
       <Name>Entity</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Helper\Helper.csproj">
+      <Project>{99ed9433-7f0d-4bb2-a8f3-be5f2c8e1e7c}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Mapper\Mapper.csproj">
       <Project>{aae46760-a82d-4f80-9f42-4d7fac2530ac}</Project>
       <Name>Mapper</Name>

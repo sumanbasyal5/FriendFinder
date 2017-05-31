@@ -1,0 +1,39 @@
+﻿#list-group-id{
+    min-height:500px;
+    border-right:1px solid #e7e7e7;
+}
+
+.list-group-item ,justify-content-between{
+    background-color:#f8f8f8 !important;
+    border:none !important;
+    cursor:pointer !important;
+}
+
+.chat-area{
+    min-height:400px;
+    max-height:400px;
+    overflow:auto;
+}
+
+.received-message{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 200px;
+    padding: 20px;
+    margin-left:700px;
+}
+
+.send-message{
+     border: 1px solid black;
+    border-radius: 100%;
+    width: 200px;
+    padding: 20px;
+    
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #115d9e;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}

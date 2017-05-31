@@ -60,5 +60,22 @@ namespace BusinessAccessLayer.Account
         {
             return _accountService.GetUserIdViaEmail(email);
         }
+
+        public IEnumerable<Login> GetAllUser()
+        {
+            var list=_accountService.GetAllUser().ToList();
+            var convertedList = AccountMapper.ConvertToModel(list);
+            return convertedList;
+        }
+
+        public Model.Login GetUserInfo(string email)
+        {
+             return AccountMapper.ConvertToModel(_accountService.GetUserInfo(email));
+        }
+
+        public bool SaveUserPhoto(string email, byte[] array)
+        {
+            return _accountService.UploadImage(email, array);
+        }
     }
 }

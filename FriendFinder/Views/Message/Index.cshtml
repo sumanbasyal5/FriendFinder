@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Model.Login>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Css/message.css" rel="stylesheet" />
+<script src="~/Scripts/Custom/message.js"></script>
+<div class="row" id="main-div">
+
+    <div class="col-lg-2" id="left-menu">
+        <ul class="list-group" id="list-group-id">
+            @{
+                foreach (var user in Model)
+                {
+                    <li class="list-group-item justify-content-between" onclick="showMessage(this);">
+                        @String.Join(" ",user.FirstName, user.LastName)
+                        <span class="badge badge-default badge-pill">14</span>
+                        <span style="display:none;">@user.UserId</span>
+                    </li>
+                }
+            }
+            
+           
+        </ul>
+    </div>
+    <div class="col-lg-10">
+        <div class="chat-area" id="chat-area">
+            
+        </div>
+        <input type="text" class="form-control" id="txtMessage" aria-describedby="emailHelp" placeholder="Message">
+    </div>
+</div>
+
+
+@*<button onclick="receiveMessage();">get</button>*@
