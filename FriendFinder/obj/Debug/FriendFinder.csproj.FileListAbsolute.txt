@@ -42,3 +42,41 @@ C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\FriendFinder\b
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\FriendFinder\obj\Debug\FriendFinder.csprojResolveAssemblyReference.cache
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\FriendFinder\obj\Debug\FriendFinder.dll
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\FriendFinder\obj\Debug\FriendFinder.pdb
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\FriendFinder.dll.config
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\FriendFinder.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\FriendFinder.pdb
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\BusinessAccessLayer.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\EntityFramework.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\EntityFramework.SqlServer.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Model.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Newtonsoft.Json.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.Helpers.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.Mvc.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.Razor.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.WebPages.Deployment.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.WebPages.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.WebPages.Razor.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\DataAccessLayer.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Mapper.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Entity.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Helper.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\BusinessAccessLayer.pdb
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Model.pdb
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\EntityFramework.xml
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\EntityFramework.SqlServer.xml
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Newtonsoft.Json.xml
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.Helpers.xml
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.Mvc.xml
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.Razor.xml
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.WebPages.xml
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.WebPages.Deployment.xml
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\System.Web.WebPages.Razor.xml
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\DataAccessLayer.pdb
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Mapper.pdb
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Entity.pdb
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\bin\Helper.pdb
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\obj\Debug\FriendFinder.csprojResolveAssemblyReference.cache
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\obj\Debug\FriendFinder.dll
+C:\Users\silent\Desktop\FriendFinder\FriendFinder\obj\Debug\FriendFinder.pdb

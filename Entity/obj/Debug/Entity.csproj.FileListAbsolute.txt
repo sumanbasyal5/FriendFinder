@@ -7,3 +7,13 @@ C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\Entity\bin\Deb
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\Entity\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\Entity\obj\Debug\Entity.dll
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\Entity\obj\Debug\Entity.pdb
+C:\Users\silent\Desktop\FriendFinder\Entity\bin\Debug\Entity.dll.config
+C:\Users\silent\Desktop\FriendFinder\Entity\bin\Debug\Entity.dll
+C:\Users\silent\Desktop\FriendFinder\Entity\bin\Debug\Entity.pdb
+C:\Users\silent\Desktop\FriendFinder\Entity\bin\Debug\EntityFramework.dll
+C:\Users\silent\Desktop\FriendFinder\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\silent\Desktop\FriendFinder\Entity\bin\Debug\EntityFramework.xml
+C:\Users\silent\Desktop\FriendFinder\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\silent\Desktop\FriendFinder\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\silent\Desktop\FriendFinder\Entity\obj\Debug\Entity.dll
+C:\Users\silent\Desktop\FriendFinder\Entity\obj\Debug\Entity.pdb

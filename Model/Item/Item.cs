@@ -16,5 +16,13 @@ namespace Model
     {
 
         public int TestId;
+
+        public void showTest() {
+            int x = 5;
+        }
+
     }
+
+   
+
 }

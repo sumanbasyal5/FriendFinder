@@ -3,3 +3,8 @@ C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\Helper\bin\Deb
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\Helper\obj\Debug\Helper.dll
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\Helper\obj\Debug\Helper.pdb
+C:\Users\silent\Desktop\FriendFinder\Helper\bin\Debug\Helper.dll
+C:\Users\silent\Desktop\FriendFinder\Helper\bin\Debug\Helper.pdb
+C:\Users\silent\Desktop\FriendFinder\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+C:\Users\silent\Desktop\FriendFinder\Helper\obj\Debug\Helper.dll
+C:\Users\silent\Desktop\FriendFinder\Helper\obj\Debug\Helper.pdb

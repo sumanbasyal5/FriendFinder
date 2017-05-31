@@ -10,3 +10,15 @@ C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\DataAccessLaye
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\bin\Debug\Entity.dll
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\bin\Debug\Entity.pdb
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\silent\Desktop\FriendFinder\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

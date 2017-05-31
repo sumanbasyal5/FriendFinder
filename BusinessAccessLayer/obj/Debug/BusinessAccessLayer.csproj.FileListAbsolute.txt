@@ -18,3 +18,23 @@ C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\BusinessAccess
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.dll
 C:\Users\basya\Documents\Visual Studio 2013\Projects\FriendFinder\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.pdb
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.dll.config
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.dll
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.pdb
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\Entity.dll
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\Helper.dll
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\Mapper.dll
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\Model.dll
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\Entity.pdb
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\Helper.pdb
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\Mapper.pdb
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\Model.pdb
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.dll
+C:\Users\silent\Desktop\FriendFinder\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.pdb
